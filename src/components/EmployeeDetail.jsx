@@ -5,7 +5,7 @@ function EmployeeDetail(props) {
       <h3>Name: {props.name.first} {props.name.last}</h3>
       <h3>Phone: {props.phone}</h3>
       <h3>Email: {props.email}</h3>
-      <h3>DOB: {props.dob}</h3>
+      <h3>DOB: {props.dob.date}</h3>
     </div>
   );
 }

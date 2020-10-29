@@ -1,5 +1,5 @@
 import "./App.css";
-// import SearchResultContainer from "./components/SearchResultContainer";
+import SearchResultContainer from "./components/SearchResultContainer";
 // import ResultList from "./components/ResultList";
 
 function App(props) {
@@ -50,7 +50,7 @@ function App(props) {
         ></input>
       </div>
       <div>
-                 {/* <SearchResultContainer results={this.state.results} /> */}
+                 <SearchResultContainer />
             </div>
     </>
   );
