@@ -14,12 +14,15 @@ class SearchResultContainer extends Component {
     //what we are trying to do here is search the API for 50 random people 
     //when this component mounts
     componentDidMount() {
-        API.search(this.state.search).then(response=> {
-            console.log(response.data);
-            this.setState({
-                result: response.data,
-            });
-        });
+        API.getEmployees()
+            .then(this.setState())
+            .catch(err=>console.log(err));
+        // (this.state.search).then(response=> {
+        //     console.log(response.data);
+        //     this.setState({
+        //         result: response.data,
+        //     });
+        // });
     }
 
     handleInputChange = event => {
