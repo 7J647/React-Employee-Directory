@@ -48,17 +48,16 @@ class SearchResultContainer extends Component {
     render() {
         return (
             <div>
-                {/* {.state.results.map((employee))} */}
-                 {/* <ResultList results={this.state.results} /> */}
-                 {/* <EmployeeDetail
-                Image={this.state.picture.thumbnail}
-                Name={this.state.name.first + this.state.name.last}
-                Phone={this.state.phone}
-                Email={this.state.email}
-                Dob={this.state.dob}
-              /> */}
-            </div>
-        );
+                {this.state.results.map(employee => (
+                <EmployeeDetail
+                image={employee.picture.thumbnail}
+                name={employee.name.first + employee.name.last}
+                phone={employee.phone}
+                email={employee.email}
+                dob={employee.dob.date}
+              />))}
+              </div>  
+        );    
     }
 }
 
