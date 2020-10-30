@@ -1,6 +1,8 @@
 function EmployeeDetail(props) {
   return (
 
+    
+
 <table class="table table-striped">
   <thead>
     <tr>

@@ -33,7 +33,7 @@ function App(props) {
           your results.
         </p>
       </header>
-      <div style={{ margin: 20, display: "flex", justifyContent: "center" }}>
+      {/* <div style={{ margin: 20, display: "flex", justifyContent: "center" }}>
         <input
           style={{
             height: 45,
@@ -46,9 +46,9 @@ function App(props) {
           placeholder="Search"
           fontFamily="Reem Kufi"
           onChange={props.handleInputChange}
-          value={props.search}
+          value={props.value}
         ></input>
-      </div>
+      </div> */}
       <div>
                  <SearchResultContainer />
             </div>
