@@ -18,8 +18,7 @@ class SearchResultContainer extends Component {
         API.getEmployees()
             .then(res=>{this.setState({results:res.data.results});
             console.log(res)
-            ;}
-            )
+            ;})
             .catch(err=>console.log(err));
         // (this.state.search).then(response=> {
         //     console.log(response.data);
@@ -47,9 +46,25 @@ class SearchResultContainer extends Component {
     
     render() {
         return (
+            <>
+            
+            {/* <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Image</th>
+      <th scope="col">Name</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Email</th>
+      <th scope="col">DOB</th>
+    </tr>
+  </thead>
+  
+
+  </table> */}
             <div>
                 {this.state.results.map(employee => (
                 <EmployeeDetail
+                
                 image={employee.picture.thumbnail}
                 name={employee.name.first + employee.name.last}
                 phone={employee.phone}
@@ -57,8 +72,40 @@ class SearchResultContainer extends Component {
                 dob={employee.dob.date}
               />))}
               </div>  
+              </>
         );    
     }
 }
 
 export default SearchResultContainer;
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
