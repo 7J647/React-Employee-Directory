@@ -1,8 +1,6 @@
 function EmployeeDetail(props) {
   return (
 
-    
-
 <table class="table table-striped">
   <thead>
     <tr>
@@ -20,7 +18,7 @@ function EmployeeDetail(props) {
       <td>{props.name}</td>
       <td>{props.phone}</td>
       <td>{props.email}</td>
-      <td>{props.dob}</td>
+      <td id="DOB">{props.dob}</td>
     </tr>
   </tbody>
 </table>

@@ -45,7 +45,7 @@ SOFTWARE.
 ## Contributing:
 Thank you to tutor Josh Furlin for his outstanding assistance in helping me complete this project. 
 ## Tests: 
-Once the page loads with results, type any letter in the search bar and any employees whose name begins with that letter or any string of letters will appear.  For example if "J" is typed in the search bar then all employees with the first name beginning with J will filter.  Type "Je" and employees with the names "Jeff", "Jessica", "Jerome" would all filter if those names are among the employee list.  Users can also test with all uppercase and all lowercase letters, the search function will still work the same. 
+Once the page loads with results, type any two letters in the search bar and any employees whose name begins with those letters or any further string of letters will appear.  For example if "Je" is typed in the search bar then all employees with the names "Jeff", "Jessica", "Jerome" would all filter if those names are among the employee list.  Users can also test with all uppercase and all lowercase letters, the search function will still work the same. 
 ## Questions: 
 Connect with me at Github: <a href="https://github.com/7J647">7J647</a> &nbsp;&nbsp;&nbsp;&nbsp;
 Contact me via Email: [jeffreyedwardflynn@gmail.com](mailto:jeffreyedwardflynn@gmail.com)
