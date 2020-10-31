@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,KACI,uBACJ,CAEA,KACI,UAAW,CACX,eAAgB,CAChB,kBACJ","file":"main.e8bc074f.chunk.css","sourcesContent":["body {\n    font-family: \"Reem Kufi\";\n}\n\n#DOB {\n    width: 10ch; \n    overflow: hidden;\n    text-overflow: clip; \n}"]}
