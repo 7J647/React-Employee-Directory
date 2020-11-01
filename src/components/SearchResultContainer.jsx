@@ -79,7 +79,7 @@ class SearchResultContainer extends Component {
         
         <button type="button" class="btn btn-primary"
         onClick={this.sortEmployeeNames}>
-          Sort Alphabetically
+          Sort Alphabetically by First Name
         </button>
 
         
