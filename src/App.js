@@ -29,7 +29,7 @@ function App(props) {
             fontFamily: "Reem Kufi",
           }}
         >
-          Click on carrots to filter by heading or use the search box to narrow
+          Click the button to sort alphabetically or use the search box to narrow
           your results.
         </p>
       </header>
