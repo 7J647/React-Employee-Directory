@@ -14,7 +14,7 @@ PLEASE NOTE:  Due to time constraints caused by Tropical Storm Zeta and the resu
 #### &nbsp;&nbsp;&nbsp;&nbsp;[7)&nbsp;Questions](#questions)
 
 ## Description: 
-This project uses React to do an API call that generates a list of fictional employees and incorporates a search bar function to search for specific employees. 
+This project uses React to do an API call that generates a list of fictional employees and incorporates a search bar function to search for specific employees along with a sort button to sort them alphabetically by first name. 
 ## Installation: 
 Run NPM install and then type NPM run start in the terminal, after first cloning the github repo. 
 ## Usage: 
@@ -43,9 +43,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 ## Contributing:
-Thank you to tutor Josh Furlin for his outstanding assistance in helping me complete this project. 
+Thank you to tutor Josh Furlin for his outstanding assistance in helping me complete this project and to TA Leif Hetland for assisting with deployment. 
 ## Tests: 
-Once the page loads with results, type any two letters in the search bar and any employees whose name begins with those letters or any further string of letters will appear.  For example if "Je" is typed in the search bar then all employees with the names "Jeff", "Jessica", "Jerome" would all filter if those names are among the employee list.  Users can also test with all uppercase and all lowercase letters, the search function will still work the same. 
+Once the page loads with results, type any two letters in the search bar and any employees whose name begins with those letters or any further string of letters will appear.  For example if "Je" is typed in the search bar then all employees with the names "Jeff", "Jessica", "Jerome" would all filter if those names are among the employee list.  Users can also test with all uppercase and all lowercase letters, the search function will still work the same. Clicking the sort button will sort all of the employees alphabetically by first name.
 ## Questions: 
 Connect with me at Github: <a href="https://github.com/7J647">7J647</a> &nbsp;&nbsp;&nbsp;&nbsp;
 Contact me via Email: [jeffreyedwardflynn@gmail.com](mailto:jeffreyedwardflynn@gmail.com)
